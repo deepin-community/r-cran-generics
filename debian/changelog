@@ -1,0 +1,45 @@
+r-cran-generics (0.1.1-1) unstable; urgency=medium
+
+  * Team Upload.
+  * New upstream version 0.1.1
+  * Run cme
+
+ -- Nilesh Patra <nilesh@debian.org>  Thu, 28 Oct 2021 00:06:18 +0530
+
+r-cran-generics (0.1.0-1) unstable; urgency=medium
+
+  * New upstream version
+  * debhelper-compat 13 (routine-update)
+
+ -- Andreas Tille <tille@debian.org>  Fri, 06 Nov 2020 11:22:30 +0100
+
+r-cran-generics (0.0.2-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Rename obsolete path debian/tests/control.autodep8 to
+    debian/tests/control.
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Archive, Bug-Database, Repository,
+    Repository-Browse.
+
+  [ Andreas Tille ]
+  * Standards-Version: 4.5.0 (routine-update)
+  * Add salsa-ci file (routine-update)
+  * Rules-Requires-Root: no (routine-update)
+
+ -- Andreas Tille <tille@debian.org>  Fri, 15 May 2020 22:04:28 +0200
+
+r-cran-generics (0.0.2-2) unstable; urgency=medium
+
+  * Team upload
+  * Add Test-Depends: r-cran-pkgload
+
+ -- Graham Inggs <ginggs@debian.org>  Mon, 10 Dec 2018 12:08:45 +0000
+
+r-cran-generics (0.0.2-1) unstable; urgency=medium
+
+  * Initial release (closes: #915377)
+
+ -- Andreas Tille <tille@debian.org>  Mon, 03 Dec 2018 11:39:37 +0100

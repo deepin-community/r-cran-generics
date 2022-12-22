@@ -1,0 +1,25 @@
+Source: r-cran-generics
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Section: gnu-r
+Testsuite: autopkgtest-pkg-r
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               dh-r,
+               r-base-dev
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-generics
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-generics.git
+Homepage: https://cran.r-project.org/package=generics
+Rules-Requires-Root: no
+
+Package: r-cran-generics
+Architecture: all
+Depends: ${R:Depends},
+         ${misc:Depends}
+Recommends: ${R:Recommends}
+Suggests: ${R:Suggests}
+Description: GNU R common S3 generics not provided by base R methods
+ This GNU R package provides a number of commonly used S3 generics that
+ are not provided by base R methods related to model fitting in order to
+ reduce potential package dependencies and conflicts,
